@@ -46,7 +46,8 @@ if git diff --staged --quiet; then
   echo "Nothing to publish"
 else
   git commit -a -m "Deploy to GitHub Pages"
-  git push > /dev/null 2>&1
+  git push
+  #git push > /dev/null 2>&1
   echo "Pushed"
 fi
 
