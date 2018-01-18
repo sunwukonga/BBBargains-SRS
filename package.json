@@ -1,0 +1,24 @@
+
+{
+  "name": "BBBargains-SRS",
+  "private": true,
+  "contributors": [
+    "Paul Desmond Parker <pauldesmondparker@gmail.com>"
+  ],
+  "license": "GPLv3",
+  "homepage": "https://bebebargains.com",
+  "bugs": {
+    "url": "https://github.com/sunwukonga/BBBargains-SRS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/sunwukonga/BBBargains-SRS.git"
+  },
+  "scripts": {
+    "test": "spec-md spec/BBBargains.md > /dev/null",
+    "build": "mkdir -p out; spec-md spec/BBBargains.md > out/index.html"
+  },
+  "devDependencies": {
+    "spec-md": "0.5.1"
+  }
+}

@@ -1,0 +1,50 @@
+# Overview
+
+BebeBargains is a platform designed to make the exchange of baby goods and
+services, in the form of sale, exchange, or donation, efficient and convenient.
+
+The backend is written in Haskell and the frontend in React-Native. The
+connective glue between these is GraphQL.
+
+An example of a GraphQL request to the server might look like:
+
+```graphql example
+{
+  listing(id: 4) {
+    title
+    description
+    image-resource
+  }
+}
+```
+
+Which would return the following JSON data:
+
+```json example
+{
+  "listing": {
+    "title": "Applejack"
+    "description": "Sleep aid. A tablespoon before bed will put your littl'n to
+sleep for the count"
+    "ourimageserver.com/collection/xxxxxxx"
+  }
+}
+```
+
+Our GraphQL server is implemented with GraphQL-api in Haskell.
+
+Our GraphQL client is implemented with Apollo Client.
+
+BebeBargains has been envisioned with the following principles in mind:
+
+ * **Clear Specification**: It is difficult to build something if the
+   constraints of construction are not well defined. This document is the first
+   step toward removing this hurdle.
+
+ * **User-centric**: This specification concentrates only on those features that
+   the user will need to meet the core goal of the platform. This is an ongoing
+   process of adaption that always begins with the user experience.
+
+ * **Client-specified queries**: Because the user experience comes first, the
+   connective glue between the front-end apps and the server must be dictated by
+   the team that is closest to the user, i.e. the front-end.

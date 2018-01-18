@@ -1,0 +1,12 @@
+git:
+  depth: 5
+language: node_js
+node_js: 6
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: "./publish.sh"
+  on:
+    branch: master
+dd:
+  secure: PtUFRwQutPsiyGbYU90KKwgGik8kI5Eyu4z7ti/6ribgMDf/hUu9xuwtXPHbUotgbd2EGdseLFc7L4hcXgA70XkieLodrRz0ESV4GbUQYTH/IBfjzikagXS/QaghSjMIV30v0V9slqiAH9LqXfhAcij5IQsGRkpkfNglYiFcvS3rZ/aqi1QYd8gXTtK68IoYZyeAK8ZqX4HxHJ+GM9uu3LkmJurCE7JY+7t4Cq2aU6r9wFUZAAu6OKl+7gv30K+i5lNvlArCnl35ZRCXUje194OA87l1pyejyLzoS+g0uHUM5O55LUBKjTG55qellHFtmyOvhwfdXLte0cJWxgCQde8CiQ/+0b5ECReSrz/PX+cylQTJAKEHHcEDhe+y2wZII3O49rvDi/IvY/vEVLYbWIa+WD6itXp1EIrlwzmsYxA47XOVT5OsKjD4Qh2/NF9FPiZcJOmCGkehii7d2zt/rreJjHOtcR3INYA/WdD/wUr39ifGJV2Qy6L25lNQCPuLbpQY/r4PF36CGAXpbrcsn6UGnCyuOyiLrCjHFuVlzJoblkMOK0Gm8SLCGiX2Jzh5iAQZrGkDl2rfsH6A+O8adpmC2bHWOn3PDLy5PjIj1y1Te5nlSDo1C1fbaB/UlbDPAa0KfKbVdiYpu0Uj4QXzkX+xX9XtJvcmhHeOdph8MtE=
