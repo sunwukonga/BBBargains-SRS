@@ -12,7 +12,8 @@ GITTAG=$(git tag --points-at HEAD)
 # Check out gh-pages locally.
 echo "Cloning gh-pages"
 rm -rf gh-pages
-git clone -b gh-pages "https://${GH_TOKEN}@github.com/sunwukonga/BBBargains-SRS.git" gh-pages > /dev/null 2>&1
+git clone -b gh-pages "https://${GH_TOKEN}@github.com/sunwukonga/BBBargains-SRS.git" gh-pages
+#git clone -b gh-pages "https://${GH_TOKEN}@github.com/sunwukonga/BBBargains-SRS.git" gh-pages > /dev/null 2>&1
 pushd gh-pages > /dev/null 2>&1
 
 # Replace /draft with this build.
