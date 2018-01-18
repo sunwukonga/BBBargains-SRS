@@ -12,8 +12,7 @@ GITTAG=$(git tag --points-at HEAD)
 # Check out gh-pages locally.
 echo "Cloning gh-pages"
 rm -rf gh-pages
-git clone -b gh-pages "https://${GH_TOKEN}@github.com/sunwukonga/BBBargains-SRS.git" gh-pages
-#git clone -b gh-pages "https://${GH_TOKEN}@github.com/sunwukonga/BBBargains-SRS.git" gh-pages > /dev/null 2>&1
+git clone -b gh-pages "https://${GH_TOKEN}@github.com/sunwukonga/BBBargains-SRS.git" gh-pages > /dev/null 2>&1
 pushd gh-pages > /dev/null 2>&1
 
 # Replace /draft with this build.
@@ -46,7 +45,8 @@ if git diff --staged --quiet; then
   echo "Nothing to publish"
 else
   git commit -a -m "Deploy to GitHub Pages"
-  git push "https://${GH_TOKEN}@github.com/sunwukonga/BBBargains-SRS.git" gh-pages
+  #git push "https://${GH_TOKEN}@github.com/sunwukonga/BBBargains-SRS.git" gh-pages
+  git push
 
   #git push > /dev/null 2>&1
   echo "Pushed"
