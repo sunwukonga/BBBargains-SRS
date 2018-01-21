@@ -1,7 +1,7 @@
 BBBargains SRS
 -------
 
-*Current Working Draft*
+*Draft*
 
 **Introduction**
 
@@ -48,5 +48,8 @@ in prose (e.g. "Note: ") or are set apart in a note block, like this:
 
 Note: This is an example of a non-normative note.
 
-
 # [Overview](Section 1 -- Overview.md)
+
+# [GraphQL Schema](Section 2 -- GraphQL.md)
+
+# [Appendix 1](Appendix 1 -- Definitions.md)
