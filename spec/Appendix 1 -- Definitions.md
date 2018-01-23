@@ -1,4 +1,4 @@
-# Appendix 1
+# A. Appendix 1
 
 ## Definitions, Acronyms, and Abbreviations
 
@@ -15,7 +15,7 @@
   </tr>
   <tr>
     <td>**User**</td>
-    <td colspan="2">Someone who wants to buy/sell, exchange, donate/receive baby goods and services. User can fulfil zero or more of the following roles: BARGAINER, TRANSLATOR, EDITOR, or ARRANGER.</td>
+    <td colspan="2">Someone who wants to buy/sell, exchange, donate/receive baby goods and services, logged or unlogged (anonymous). User can fulfil zero or more of the following roles: BARGAINER, TRANSLATOR, EDITOR, or ARRANGER.</td>
   </tr>
   <tr>
     <td rowspan="4">*User Roles*</td>

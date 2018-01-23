@@ -52,4 +52,6 @@ Note: This is an example of a non-normative note.
 
 # [GraphQL Schema](Section 2 -- GraphQL.md)
 
+# [Functional Requirements](Section 3 -- Functional Requirements.md)
+
 # [Appendix 1](Appendix 1 -- Definitions.md)
