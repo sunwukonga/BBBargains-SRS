@@ -1,6 +1,25 @@
 BBBargains SRS
 -------
 
+<style>
+h1 \{
+  color: #1fa6a4;
+\}
+table th \{
+  background: #1fa6a4;
+  color: #1fa6a4;
+  border: 0;
+\}
+table th.show \{
+  background: #1fa6a4;
+  color: #ffffff;
+  border: 0;
+\}
+table td \{
+  border: 0;
+\}
+</style>
+
 *Draft*
 
 **Introduction**

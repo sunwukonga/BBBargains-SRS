@@ -2,6 +2,8 @@
 
 ## Definitions, Acronyms, and Abbreviations
 
+### Definitions
+
  
 <table>
 <colgroup>
@@ -10,8 +12,8 @@
 <col style="width: 287">
 </colgroup>
   <tr>
-    <th>**Term**</th>
-    <th colspan="2">**Definition**</th>
+    <th class="show">**Term**</th>
+    <th class="show" colspan="2">**Definition**</th>
   </tr>
   <tr>
     <td>**User**</td>
@@ -113,6 +115,34 @@
     <td>Where and when the measurement is to be reported.</td>
   </tr>
 </table>
+
+### Abbreviations
+
+ 
+<table>
+<colgroup>
+<col style="width: 27px">
+<col style="width: 27px">
+<col style="width: 287">
+</colgroup>
+  <tr>
+    <th class="show">**Abbreviation**</th>
+    <th class="show">**Original**</th>
+  </tr>
+  <tr>
+    <td>**DESC**</td>
+    <td>DESCRIPTION</td>
+  </tr>
+  <tr>
+    <td>**RAT**</td>
+    <td>RATIONALE</td>
+  </tr>
+  <tr>
+    <td>**DEP**</td>
+    <td>DEPENDENCY</td>
+  </tr>
+</table>
+
  
 ![How spec-md works](http://g.gravizo.com/svg?
   digraph specmd {
